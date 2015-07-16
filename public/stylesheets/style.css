@@ -32,3 +32,12 @@ footer{
 nav span{
   margin: 0px 10px 0px 0px;
 }
+
+#author .image{
+  clear: both;
+  width: 150px
+}
+
+#author h3{
+  display: block;
+}
