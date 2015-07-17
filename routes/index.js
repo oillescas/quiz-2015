@@ -9,6 +9,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Quiz' });
 });
 
+router.param("quizId",quizControler.load)
+
 router.get('/quizes/', quizControler.index);
 router.get('/quizes/:quizId(\\d+)', quizControler.show);
 router.get('/quizes/:quizId(\\d+)/answer', quizControler.answer);
