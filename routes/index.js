@@ -11,6 +11,7 @@ router.get('/', function(req, res, next) {
 
 router.param("quizId",quizControler.load)
 
+router.get('/quizes/', quizControler.search);
 router.get('/quizes/', quizControler.index);
 router.get('/quizes/:quizId(\\d+)', quizControler.show);
 router.get('/quizes/:quizId(\\d+)/answer', quizControler.answer);

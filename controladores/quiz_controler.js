@@ -13,6 +13,19 @@ exports.load  = function(req, res, next, quizId){
 	).catch(function(err){next(err)});
 };
 
+exports.search  = function(req, res, next){
+	if(req.query.search){
+		var search = "%"+ req.query.search.trim().replace(/\s+/g , "%")+"%";
+		models.Quiz.findAll({where: ["pregunta like ?", search]}).then(
+			function(quiz){
+				res.render('quizes/index',{quizes: quiz});
+			}
+		).catch(function(err){next(err);});
+	}else{
+		next();	
+	}
+};
+
 exports.index  = function(req, res, next){
 	models.Quiz.findAll().then(
 		function(quiz){
