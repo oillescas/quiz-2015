@@ -97,14 +97,14 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 34,
+            "@document": 35,
             "@form": 4,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 33,
-            "@tab": 34,
-            "@undoManager": 34
+            "@session": 34,
+            "@tab": 35,
+            "@undoManager": 35
         }
     },
     "findinfiles": {
@@ -121,7 +121,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab32",
+            "tab34",
             "tab12"
         ]
     },
@@ -177,6 +177,7 @@
             "focus": "/app.js",
             "meta": {
                 "accessList": [
+                    "tab34",
                     "tab32",
                     "tab31",
                     "tab30",
@@ -299,7 +300,7 @@
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1439317869047
+                            "timestamp": 1439318462981
                         },
                         "filter": true,
                         "title": "app.js",
@@ -308,6 +309,26 @@
                     },
                     "editorType": "ace",
                     "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab34",
+                    "path": "/controladores/session_controller.js",
+                    "className": [
+                        "tab34"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439318563843
+                        },
+                        "filter": true,
+                        "title": "session_controller.js",
+                        "tooltip": "/controladores/session_controller.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -317,7 +338,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/controladores/session_controller.js"
+            "/app.js"
         ]
     }
 }
