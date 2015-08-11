@@ -1,0 +1,302 @@
+{
+    "console": {
+        "@expanded": true,
+        "@height": 243,
+        "@maximized": "false",
+        "json()": {
+            "meta": {
+                "accessList": [
+                    "tab12",
+                    "tab0",
+                    "tab1"
+                ]
+            },
+            "name": "pane1",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab0",
+                    "path": "",
+                    "className": [
+                        "tab0",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439313236886
+                        },
+                        "filter": true,
+                        "title": "Terminal",
+                        "terminal": {
+                            "id": "devel_374",
+                            "cwd": "",
+                            "width": 1094,
+                            "height": 217
+                        }
+                    },
+                    "editorType": "terminal",
+                    "active": true
+                },
+                {
+                    "type": "tab",
+                    "name": "tab1",
+                    "path": "",
+                    "className": [],
+                    "document": {
+                        "title": "Immediate",
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439313236890
+                        },
+                        "filter": true
+                    },
+                    "editorType": "immediate",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab12",
+                    "path": "",
+                    "className": [
+                        "tab12"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439314224598
+                        },
+                        "filter": true,
+                        "title": "bin/www - Stopped",
+                        "tooltip": "bin/www - Stopped",
+                        "output": {
+                            "id": "output666852",
+                            "width": 0,
+                            "height": 0,
+                            "config": {
+                                "runner": "Shell command",
+                                "command": "bin/www",
+                                "debug": true,
+                                "env": {
+                                    "DATABASE_URL": "sqlite://:@:/",
+                                    "DATABASE_STORAGE": "quiz.sqlite"
+                                }
+                            }
+                        }
+                    },
+                    "editorType": "output",
+                    "active": false
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "ext": {
+        "counters": {
+            "@ace": 1,
+            "@acestatus": 1,
+            "@divider": 4,
+            "@document": 32,
+            "@form": 4,
+            "@menu": 5,
+            "@menuitem": 13,
+            "@pane": 2,
+            "@session": 31,
+            "@tab": 32,
+            "@undoManager": 32
+        }
+    },
+    "findinfiles": {
+        "@console": "true",
+        "@matchcase": "false",
+        "@regex": "false",
+        "@wholeword": "false"
+    },
+    "menus": {
+        "@minimized": "false"
+    },
+    "nak": {
+        "@installed": true
+    },
+    "panecycle": {
+        "json()": [
+            "tab21",
+            "tab12"
+        ]
+    },
+    "panels": {
+        "@active-left": "tree",
+        "commands.panel": {
+            "@enabled": "true",
+            "@name": "commands.panel"
+        },
+        "debugger": {
+            "@enabled": "true",
+            "@name": "debugger"
+        },
+        "git.status": {
+            "@enabled": "true",
+            "@name": "git.status"
+        },
+        "navigate": {
+            "@enabled": "true",
+            "@name": "navigate"
+        },
+        "outline": {
+            "@enabled": "true",
+            "@name": "outline"
+        },
+        "tree": {
+            "@enabled": "true",
+            "@name": "tree"
+        }
+    },
+    "projecttree": {
+        "@scrollpos": -10,
+        "@showfs": true,
+        "expanded": {
+            "json()": [
+                "/",
+                "/views/New Folder",
+                "/views/comments",
+                "/public/stylesheets",
+                "/views/sessions",
+                "/views/quizes",
+                "/New Folder",
+                "/certs",
+                "/cert"
+            ]
+        }
+    },
+    "recentfiles": {
+        "json()": []
+    },
+    "tabs": {
+        "json()": {
+            "focus": "tab0",
+            "meta": {
+                "accessList": [
+                    "tab31",
+                    "tab30",
+                    "tab29",
+                    "tab28",
+                    "tab17",
+                    "tab27"
+                ]
+            },
+            "name": "pane0",
+            "nodes": [
+                {
+                    "type": "tab",
+                    "name": "tab27",
+                    "path": "/models/comment.js",
+                    "className": [
+                        "tab27"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439316074319
+                        },
+                        "filter": true,
+                        "title": "comment.js",
+                        "tooltip": "/models/comment.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab28",
+                    "path": "/controladores/comment_controller.js",
+                    "className": [
+                        "tab28"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439315974474
+                        },
+                        "filter": true,
+                        "title": "comment_controller.js",
+                        "tooltip": "/controladores/comment_controller.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab29",
+                    "path": "/routes/index.js",
+                    "className": [
+                        "tab29"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439316143464
+                        },
+                        "filter": true,
+                        "title": "index.js",
+                        "tooltip": "/routes/index.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab30",
+                    "path": "/views/quizes/show.ejs",
+                    "className": [
+                        "tab30"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439316207585
+                        },
+                        "filter": true,
+                        "title": "show.ejs",
+                        "tooltip": "/views/quizes/show.ejs",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab31",
+                    "path": "/bin/www",
+                    "className": [
+                        "tab31"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439316419659
+                        },
+                        "filter": true,
+                        "title": "www",
+                        "tooltip": "/bin/www",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
+                    "active": true
+                }
+            ],
+            "skin": "editor_tab",
+            "skinset": "default",
+            "type": "pane"
+        }
+    },
+    "tree_selection": {
+        "json()": [
+            "/cert"
+        ]
+    }
+}
