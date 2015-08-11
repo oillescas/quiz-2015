@@ -49,7 +49,8 @@ app.use(function(req, res, next) {
   if(req.session.user){
     var ahora = new Date().getTime();
     
-    if(ahora-req.session.time>= 180000){ //120000 = 60s * 2 * 1000
+    console.log(ahora,"-",req.session.time, "=",ahora-req.session.time );
+    if(ahora-req.session.time>= 120000){ //120000 = 60s * 2 * 1000
       delete req.session.user;
     }
     req.session.time = ahora;

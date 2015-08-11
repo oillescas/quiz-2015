@@ -6,8 +6,8 @@
         "json()": {
             "meta": {
                 "accessList": [
-                    "tab12",
                     "tab0",
+                    "tab12",
                     "tab1"
                 ]
             },
@@ -121,8 +121,8 @@
     },
     "panecycle": {
         "json()": [
-            "tab34",
-            "tab12"
+            "tab32",
+            "tab0"
         ]
     },
     "panels": {
