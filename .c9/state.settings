@@ -18,8 +18,7 @@
                     "name": "tab0",
                     "path": "",
                     "className": [
-                        "tab0",
-                        "focus"
+                        "tab0"
                     ],
                     "document": {
                         "changed": false,
@@ -98,14 +97,14 @@
             "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 32,
+            "@document": 34,
             "@form": 4,
             "@menu": 5,
             "@menuitem": 13,
             "@pane": 2,
-            "@session": 31,
-            "@tab": 32,
-            "@undoManager": 32
+            "@session": 33,
+            "@tab": 34,
+            "@undoManager": 34
         }
     },
     "findinfiles": {
@@ -122,7 +121,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab21",
+            "tab32",
             "tab12"
         ]
     },
@@ -165,8 +164,8 @@
                 "/views/sessions",
                 "/views/quizes",
                 "/New Folder",
-                "/certs",
-                "/cert"
+                "/cert",
+                "/controladores"
             ]
         }
     },
@@ -175,9 +174,10 @@
     },
     "tabs": {
         "json()": {
-            "focus": "tab0",
+            "focus": "/app.js",
             "meta": {
                 "accessList": [
+                    "tab32",
                     "tab31",
                     "tab30",
                     "tab29",
@@ -286,6 +286,27 @@
                         "ace": {}
                     },
                     "editorType": "ace",
+                    "active": false
+                },
+                {
+                    "type": "tab",
+                    "name": "tab32",
+                    "path": "/app.js",
+                    "className": [
+                        "tab32",
+                        "focus"
+                    ],
+                    "document": {
+                        "changed": false,
+                        "meta": {
+                            "timestamp": 1439317869047
+                        },
+                        "filter": true,
+                        "title": "app.js",
+                        "tooltip": "/app.js",
+                        "ace": {}
+                    },
+                    "editorType": "ace",
                     "active": true
                 }
             ],
@@ -296,7 +317,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/cert"
+            "/controladores/session_controller.js"
         ]
     }
 }
